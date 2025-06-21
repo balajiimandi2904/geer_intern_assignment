@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "name": "Headphones",
+    "price": 199.99,
+    "imageUrl": "/images/headphones.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Smartphone",
+    "price": 799.99,
+    "imageUrl": "/images/smartphone.jpg"
+  }
+]

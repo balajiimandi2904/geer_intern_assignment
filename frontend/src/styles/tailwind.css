@@ -1,0 +1,35 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --primary-color: #4f46e5;
+  --secondary-color: #f97316;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.button {
+  @apply px-4 py-2 rounded bg-secondary-color text-white hover:bg-orange-500;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-lg p-4 transform hover:scale-105 transition-transform duration-300;
+}
+
+.card img {
+  @apply rounded-t-lg;
+}
+
+.card-title {
+  @apply text-lg font-bold text-gray-800;
+}
+
+.card-price {
+  @apply text-gray-600;
+}
