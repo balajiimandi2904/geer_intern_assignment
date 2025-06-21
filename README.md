@@ -30,15 +30,18 @@ A full-stack application for managing products, built using **Node.js**, **Expre
 ```bash
 git clone https://github.com/your-repo-name.git
 cd geer_intern_assignment
+```
 
 ### 2. Backend Setup
 ```bash
 cd backend
 npm install
 node app.js
+```
 
 ### 3.Frontend Setup
 ```bash
 cd ../frontend
 npm install
 npm run dev
+```
